@@ -1355,7 +1355,7 @@ containing a value of this type.
         public static final int zee_24_ghanta=0x7f020173;
         public static final int zee_24_ghante_mp=0x7f020174;
         public static final int zee_24_taas=0x7f020175;
-        public static final int zee_action_=0x7f020176;
+        public static final int zee_action=0x7f020176;
         public static final int zee_bangla=0x7f020177;
         public static final int zee_business=0x7f020178;
         public static final int zee_cafe=0x7f020179;
@@ -1386,7 +1386,6 @@ containing a value of this type.
         public static final int ztrendz=0x7f020192;
     }
     public static final class id {
-        public static final int Music=0x7f09003e;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09001b;
@@ -1416,15 +1415,14 @@ containing a value of this type.
         public static final int icon=0x7f09002a;
         public static final int ifRoom=0x7f090011;
         public static final int image=0x7f090027;
-        public static final int imageView1=0x7f09003d;
+        public static final int list=0x7f09003d;
         public static final int listMode=0x7f090006;
         public static final int list_item=0x7f090029;
+        public static final int logo=0x7f09003e;
         public static final int middle=0x7f090018;
         public static final int never=0x7f090012;
-        public static final int next_item=0x7f090040;
         public static final int none=0x7f090019;
         public static final int normal=0x7f090007;
-        public static final int previous_item=0x7f090041;
         public static final int progress_circular=0x7f090004;
         public static final int progress_horizontal=0x7f090005;
         public static final int radio=0x7f09002f;
@@ -1448,7 +1446,6 @@ containing a value of this type.
         public static final int tabMode=0x7f090008;
         public static final int title=0x7f09002b;
         public static final int top_action_bar=0x7f090020;
-        public static final int twview_music=0x7f09003f;
         public static final int up=0x7f090021;
         public static final int useLogo=0x7f09000e;
         public static final int withText=0x7f090013;

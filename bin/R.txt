@@ -519,7 +519,7 @@ int drawable zee_24_gantalu 0x7f020172
 int drawable zee_24_ghanta 0x7f020173
 int drawable zee_24_ghante_mp 0x7f020174
 int drawable zee_24_taas 0x7f020175
-int drawable zee_action_ 0x7f020176
+int drawable zee_action 0x7f020176
 int drawable zee_bangla 0x7f020177
 int drawable zee_business 0x7f020178
 int drawable zee_cafe 0x7f020179
@@ -548,7 +548,6 @@ int drawable zing 0x7f02018f
 int drawable zkhanna 0x7f020190
 int drawable zoom 0x7f020191
 int drawable ztrendz 0x7f020192
-int id Music 0x7f09003e
 int id action_bar 0x7f09001c
 int id action_bar_activity_content 0x7f090001
 int id action_bar_container 0x7f09001b
@@ -578,15 +577,14 @@ int id homeAsUp 0x7f09000a
 int id icon 0x7f09002a
 int id ifRoom 0x7f090011
 int id image 0x7f090027
-int id imageView1 0x7f09003d
+int id list 0x7f09003d
 int id listMode 0x7f090006
 int id list_item 0x7f090029
+int id logo 0x7f09003e
 int id middle 0x7f090018
 int id never 0x7f090012
-int id next_item 0x7f090040
 int id none 0x7f090019
 int id normal 0x7f090007
-int id previous_item 0x7f090041
 int id progress_circular 0x7f090004
 int id progress_horizontal 0x7f090005
 int id radio 0x7f09002f
@@ -610,7 +608,6 @@ int id submit_area 0x7f090039
 int id tabMode 0x7f090008
 int id title 0x7f09002b
 int id top_action_bar 0x7f090020
-int id twview_music 0x7f09003f
 int id up 0x7f090021
 int id useLogo 0x7f09000e
 int id withText 0x7f090013

@@ -1,0 +1,1113 @@
+[ 
+  {
+    "category":"Hindi Movies",
+    
+      "data": [
+        {
+          "key": "abn-telugu-news",
+          "name": "ABN Telgu News",
+          "logo": "abn_telugu_news"
+        },
+        {
+          "key": "bhakti-tv",
+          "name": "Bhakti Tv",
+          "logo": "bhakti_tv"
+        },
+        {
+          "key": "etv",
+          "name": "Etv",
+          "logo": "etv"
+        },
+        {
+          "key": "etv-2",
+          "name": "Etv 2",
+          "logo": "etv_2"
+        },
+        {
+          "key": "gemini-movies",
+          "name": "Gemini Movies",
+          "logo": "gemini_movies"
+        },
+        {
+          "key": "gemini-music",
+          "name": "Gemini Music",
+          "logo": "gemini_music"
+        },
+        {
+          "key": "gemini-tv",
+          "name": "Gemini Tv",
+          "logo": "gemini_tv"
+        },
+        {
+          "key": "gemini-tv-hd",
+          "name": "Gemini Tv HD",
+          "logo": "gemini_tv_hd"
+        },
+        {
+          "key": "kushi-tv",
+          "name": "Khushi Tv",
+          "logo": "kushi_tv"
+        },
+        {
+          "key": "maa-gold",
+          "name": "Maa Gold",
+          "logo": "maa_gold"
+        },
+        {
+          "key": "maa-movies",
+          "name": "Maa Movies",
+          "logo": "maamovies_"
+        },
+        {
+          "key": "maa-music",
+          "name": "Maa Music",
+          "logo": "maa_music"
+        },
+        {
+          "key": "maa-tv",
+          "name": "Maa Tv",
+          "logo": "maa_tv"
+        },
+        {
+          "key": "raj-musix-telugu",
+          "name": "Raj Musix Telugu",
+          "logo": "raj_musix"
+        },
+        {
+          "key": "raj-news-24x7",
+          "name": "Raj News 24*7",
+          "logo": "raj_news_24x7"
+        },
+        {
+          "key": "studio-n",
+          "name": "Studio N",
+          "logo": "studio_n"
+        },
+        {
+          "key": "v6-news",
+          "name": "V6 News",
+          "logo": "v6_news"
+        },
+        {
+          "key": "zee-telugu",
+          "name": "Zee Telugu",
+          "logo": "zee_telugu"
+        }
+      ]
+    },
+    {
+      "category":"Telugu",
+      "data": [
+        {
+          "key": "abn-telugu-news",
+          "name": "ABN Telgu News",
+          "logo": "abn_telugu_news"
+        },
+        {
+          "key": "bhakti-tv",
+          "name": "Bhakti Tv",
+          "logo": "bhakti_tv"
+        },
+        {
+          "key": "etv",
+          "name": "Etv",
+          "logo": "etv"
+        },
+        {
+          "key": "etv-2",
+          "name": "Etv 2",
+          "logo": "etv_2"
+        },
+        {
+          "key": "gemini-movies",
+          "name": "Gemini Movies",
+          "logo": "gemini_movies"
+        },
+        {
+          "key": "gemini-music",
+          "name": "Gemini Music",
+          "logo": "gemini_music"
+        },
+        {
+          "key": "gemini-tv",
+          "name": "Gemini Tv",
+          "logo": "gemini_tv"
+        },
+        {
+          "key": "gemini-tv-hd",
+          "name": "Gemini Tv HD",
+          "logo": "gemini_tv_hd"
+        },
+        {
+          "key": "kushi-tv",
+          "name": "Khushi Tv",
+          "logo": "kushi_tv"
+        },
+        {
+          "key": "maa-gold",
+          "name": "Maa Gold",
+          "logo": "maa_gold"
+        },
+        {
+          "key": "maa-movies",
+          "name": "Maa Movies",
+          "logo": "maamovies_"
+        },
+        {
+          "key": "maa-music",
+          "name": "Maa Music",
+          "logo": "maa_music"
+        },
+        {
+          "key": "maa-tv",
+          "name": "Maa Tv",
+          "logo": "maa_tv"
+        },
+        {
+          "key": "raj-musix-telugu",
+          "name": "Raj Musix Telugu",
+          "logo": "raj_musix"
+        },
+        {
+          "key": "raj-news-24x7",
+          "name": "Raj News 24*7",
+          "logo": "raj_news_24x7"
+        },
+        {
+          "key": "studio-n",
+          "name": "Studio N",
+          "logo": "studio_n"
+        },
+        {
+          "key": "v6-news",
+          "name": "V6 News",
+          "logo": "v6_news"
+        },
+        {
+          "key": "zee-telugu",
+          "name": "Zee Telugu",
+          "logo": "zee_telugu"
+        }
+      ]
+      },
+      {
+        
+      "category":"Tamil",
+      "data":[
+        {
+          "key": "7-s-music",
+          "name": "7s Music",
+          "logo": "seven_s_music"
+        },
+        {
+          "key": "adithya-tv",
+          "name": "Aditya Tv",
+          "logo": "adithya_tv"
+        },
+        {
+          "key": "angel-tv",
+          "name": "Angel Tv",
+          "logo": "angel_tv"
+        },
+        {
+          "key": "aseervatham-tv",
+          "name": "Aseervatham Tv",
+          "logo": "aseervatham_tv"
+        },
+        {
+          "key": "captain-news",
+          "name": "Captain News",
+          "logo": "captain_news"
+        },
+        {
+          "key": "chutti-tv",
+          "name": "Chutti Tv",
+          "logo": "chutti_tv"
+        },
+        {
+          "key": "discovery-tamil",
+          "name": "Discovery Tamil",
+          "logo": "discovery_tamil"
+        },
+        {
+          "key": "jaya-max",
+          "name": "Jaya Max",
+          "logo": "jaya_max"
+        },
+        {
+          "key": "jaya-movie",
+          "name": "Jaya Movie",
+          "logo": "jaya_movies"
+        },
+        {
+          "key": "jaya-plus",
+          "name": "Jaya Plus",
+          "logo": "jaya_plus"
+        },
+        {
+          "key": "jaya-tv",
+          "name": "Jaya Tv",
+          "logo": "jaya_tv_"
+        },
+        {
+          "key": "kalaignar-chithiram",
+          "name": "Kalaignar Chithiram",
+          "logo": "kalaignar_chithiram"
+        },
+        {
+          "key": "kalaignar-isai-aruvi",
+          "name": "Kalaignar Isai Aruvi",
+          "logo": "kalaignar_isai_aruvi"
+        },
+        {
+          "key": "kalaignar-murasu",
+          "name": "Kalaignar Murasu",
+          "logo": "kalaignar_murasu"
+        },
+        {
+          "key": "kalaignar-sirippoli",
+          "name": "Kalaignar Srirppoli",
+          "logo": "kalaignar_sirippoli"
+        },
+        {
+          "key": "kalaignar-tv",
+          "name": "kalaignar Tv",
+          "logo": "kalaignar"
+        },
+        {
+          "key": "ktv",
+          "name": "KTV",
+          "logo": "ktv_"
+        },
+        {
+          "key": "ktv-hd",
+          "name": "KTV HD",
+          "logo": "ktvhd_"
+        },
+        {
+          "key": "mega-musiq",
+          "name": "Mega Musiq",
+          "logo": "mega_musiq"
+        },
+        {
+          "key": "mega-tv",
+          "name": "Mega Tv",
+          "logo": "mega_tv"
+        },
+        {
+          "key": "polimer-tv",
+          "name": "Polimer Tv",
+          "logo": "polimer_tv"
+        },
+        {
+          "key": "raj-digital-plus",
+          "name": "Raj Digital Plus",
+          "logo": "raj_digital_plus"
+        },
+        {
+          "key": "raj-musix",
+          "name": "Raj Musix",
+          "logo": "raj_musix"
+        },
+        {
+          "key": "raj-tv",
+          "name": "Raj Tv",
+          "logo": "raj_tv"
+        },
+        {
+          "key": "seithigal",
+          "name": "Seithigal",
+          "logo": "seithigal"
+        },
+        {
+          "key": "star-vijay",
+          "name": "Star Vijay",
+          "logo": "star_vijay"
+        },
+        {
+          "key": "sun-music",
+          "name": "Sun Music",
+          "logo": "sun_music"
+        },
+        {
+          "key": "sun-news",
+          "name": "Sun News",
+          "logo": "sun_news"
+        },
+        {
+          "key": "sun-tv",
+          "name": "Sun Tv",
+          "logo": "sun_tv"
+        },
+        {
+          "key": "sun-tv-hd",
+          "name": "Sun tv HD",
+          "logo": "sun_tv_hd"
+        }
+      ]},
+      {"category":"Music",
+      "data": [
+        {
+          "key": "9x-jalwa",
+          "name": "9X Jalwa",
+          "logo": "nine_x_jalwa"
+        },
+        {
+          "key": "9xm",
+          "name": "9XM",
+          "logo": "nine_xm"
+        },
+        {
+          "key": "b4u-music",
+          "name": "B4U Music",
+          "logo": "b4u_music"
+        },
+        {
+          "key": "mastiii",
+          "name": "Mastii",
+          "logo": "mastiii"
+        },
+        {
+          "key": "mtv",
+          "name": "MTv",
+          "logo": "mtv"
+        },
+        {
+          "key": "music-india",
+          "name": "Music India",
+          "logo": "music_india"
+        },
+        {
+          "key": "music-xpress",
+          "name": "Music Xpress",
+          "logo": "music_xpress"
+        },
+        {
+          "key": "vh1",
+          "name": "VH 1",
+          "logo": "vh1"
+        },
+        {
+          "key": "zing",
+          "name": "Zing",
+          "logo": "zing"
+        }
+      ]},
+    {"category":"Hindi Entertainment",
+      "data": [
+        {
+          "key": "big-magic",
+          "name": "Big Magic",
+          "logo": "big_magic"
+        },
+        {
+          "key": "big-rtl-thrill",
+          "name": "Big RTL Thrill",
+          "logo": "big_rtl_thrill"
+        },
+        {
+          "key": "bindass",
+          "name": "Bindass",
+          "logo": "bindass"
+        },
+        {
+          "key": "channel-[v]",
+          "name": "Channel [V]",
+          "logo": "channel_v"
+        },
+        {
+          "key": "colors",
+          "name": "Colors",
+          "logo": "colors"
+        },
+        {
+          "key": "colors-hd",
+          "name": "Colors HD",
+          "logo": "colors_hd"
+        },
+        {
+          "key": "dd-bharati",
+          "name": "DD Bharati",
+          "logo": "dd_bharati"
+        },
+        {
+          "key": "dd-india",
+          "name": "DD India",
+          "logo": "dd_india_"
+        },
+        {
+          "key": "dd-national",
+          "name": "DD National",
+          "logo": "dd_national"
+        },
+        {
+          "key": "life-ok",
+          "name": "Life Ok",
+          "logo": "life_ok"
+        },
+        {
+          "key": "life-ok-hd",
+          "name": "Life Ok HD",
+          "logo": "life_ok_hd"
+        },
+        {
+          "key": "rishtey",
+          "name": "Rishtey",
+          "logo": "rishtey"
+        },
+        {
+          "key": "sahara-one",
+          "name": "Sahara One",
+          "logo": "sahara_one"
+        },
+        {
+          "key": "sony-entertainment-tv",
+          "name": "Sony Entertainment Tv",
+          "logo": "sony_entertainment_tv"
+        },
+        {
+          "key": "sony-pal",
+          "name": "Sony Pal",
+          "logo": "sony_pal"
+        },
+        {
+          "key": "sony-sab",
+          "name": "Sony Sab",
+          "logo": "sony_sab"
+        },
+        {
+          "key": "sony-tv-hd",
+          "name": "Sony Tv HD",
+          "logo": "sony_entertainment_tv_hd"
+        },
+        {
+          "key": "star-plus",
+          "name": "Star Plus",
+          "logo": "star_plus"
+        },
+        {
+          "key": "star-utsav",
+          "name": "Star Utsav",
+          "logo": "star_utsav"
+        },
+        {
+          "key": "zee-smile",
+          "name": "Zee Smile",
+          "logo": "zee_smile"
+        },
+        {
+          "key": "zee-tv",
+          "name": "Zee Tv",
+          "logo": "zee_tv"
+        },
+        {
+          "key": "zindagi",
+          "name": "Zindagi",
+          "logo": "zee_zindagi"
+        }
+      ]},
+{"category":"English Movies",
+      "data": [
+        {
+          "key": "hbo",
+          "name": "HBO",
+          "logo": "hbo"
+        },
+        {
+          "key": "hbo-defined",
+          "name": "HBO Defined",
+          "logo": "hbo_defined"
+        },
+        {
+          "key": "hbo-hits",
+          "name": "HBO Hits",
+          "logo": "hbo_hits"
+        },
+        {
+          "key": "mgm",
+          "name": "MGM Channel",
+          "logo": "mgm"
+        },
+        {
+          "key": "movies-now",
+          "name": "Movies Now",
+          "logo": "movies_now"
+        },
+        {
+          "key": "movies-now-hd",
+          "name": "Movies Now HD",
+          "logo": "movies_now_hd"
+        },
+        {
+          "key": "romedy-now",
+          "name": "Romedy Now",
+          "logo": "romedy_now"
+        },
+        {
+          "key": "sony-pix",
+          "name": "Sony PIX",
+          "logo": "sonypix"
+        },
+        {
+          "key": "star-movies",
+          "name": "Star Movies",
+          "logo": "starmovies"
+        },
+        {
+          "key": "star-movies-action",
+          "name": "Star Movies Action",
+          "logo": "star_movies_action"
+        },
+        {
+          "key": "star-movies-hd",
+          "name": "Star Movies HD",
+          "logo": "star_movies_hd"
+        },
+        {
+          "key": "world-movies",
+          "name": "World Movies",
+          "logo": "world_movies"
+        },
+        {
+          "key": "zee-studio",
+          "name": "Zee Studio",
+          "logo": "zee_studio"
+        },
+        {
+          "key": "zee-studio-hd",
+          "name": "Zee Studio HD",
+          "logo": "zee_studio_hd"
+        }
+      ]},
+{ 
+  "category":"Kannada",
+      "data": [
+        {
+          "key": "etv-kannada",
+          "name": "Etv Kannada",
+          "logo": "etv_kannada"
+        },
+        {
+          "key": "kasthuri-tv",
+          "name": "Kasthuri Tv",
+          "logo": "kasthuri_tv_"
+        },
+        {
+          "key": "raj-music-karnataka",
+          "name": "Raj Music Kannada",
+          "logo": "raj_music_karnataka"
+        },
+        {
+          "key": "suvarna-news-24x7",
+          "name": "Suvarna News 24*7",
+          "logo": "suvarna_news_24x7"
+        },
+        {
+          "key": "suvarna-plus",
+          "name": "Suvarna Plus",
+          "logo": "suvarna_plus"
+        },
+        {
+          "key": "tv9-kannada",
+          "name": "Tv9 Kannada",
+          "logo": "tv9_kannada"
+        },
+        {
+          "key": "udaya",
+          "name": "Udaya",
+          "logo": "udaya_tv"
+        },
+        {
+          "key": "udaya-comedy",
+          "name": "Udaya Comedy",
+          "logo": "udaya_comedy"
+        },
+        {
+          "key": "udaya-movies",
+          "name": "Udaya Movies",
+          "logo": "udaya_movies"
+        },
+        {
+          "key": "udaya-music",
+          "name": "Udaya Music",
+          "logo": "udaya_music"
+        },
+        {
+          "key": "udaya-news",
+          "name": "Udaya News",
+          "logo": "udaya_news"
+        },
+        {
+          "key": "zee-kannada",
+          "name": "Zee Kannada",
+          "logo": "zee_kannada"
+        }
+      ]},
+{
+  "category":"Sports",
+  
+      "data": [
+        {
+          "key": "dd-sports",
+          "name": "DD Sports",
+          "logo": "dd_sports"
+        },
+        {
+          "key": "neo-prime",
+          "name": "Neo Prime",
+          "logo": "neo_prime"
+        },
+        {
+          "key": "neo-sports",
+          "name": "Neo Sports",
+          "logo": "neo_sports"
+        },
+        {
+          "key": "sony-six",
+          "name": "Sony Six",
+          "logo": "sony_six"
+        },
+        {
+          "key": "sony-six-hd",
+          "name": "Sony Six HD",
+          "logo": "sony_six_hd"
+        },
+        {
+          "key": "star-sports-1",
+          "name": "Star Sports 1",
+          "logo": "star_sports_1"
+        },
+        {
+          "key": "star-sports-2",
+          "name": "Start Sports 2",
+          "logo": "star_sports_2"
+        },
+        {
+          "key": "star-sports-3",
+          "name": "Start Sports 3",
+          "logo": "star_sports_3"
+        },
+        {
+          "key": "star-sports-4",
+          "name": "Start Sports 4",
+          "logo": "star_sports_4"
+        },
+        {
+          "key": "star-sports-hd-1",
+          "name": "Start Sports 1 HD",
+          "logo": "star_sports_hd1"
+        },
+        {
+          "key": "star-sports-hd-2",
+          "name": "Start Sports 2 HD",
+          "logo": "star_sports_hd2"
+        },
+        {
+          "key": "ten-action",
+          "name": "Ten Action",
+          "logo": "ten_action"
+        },
+        {
+          "key": "ten-cricket",
+          "name": "Ten Cricket",
+          "logo": "ten_cricket"
+        },
+        {
+          "key": "ten-golf",
+          "name": "Ten Golf",
+          "logo": "ten_golf"
+        },
+        {
+          "key": "ten-hd",
+          "name": "Ten HD",
+          "logo": "ten_hd"
+        },
+        {
+          "key": "ten-sports",
+          "name": "Ten Sports",
+          "logo": "ten_sports"
+        }
+      ]},
+{"category":"Infotainment",
+      "data": [
+        {
+          "key": "animal-planet",
+          "name": "Animal Planet",
+          "logo": "animal_planet"
+        },
+        {
+          "key": "discovery-channel",
+          "name": "Discovery Channel",
+          "logo": "channels"
+        },
+        {
+          "key": "discovery-hd",
+          "name": "Discovery HD",
+          "logo": "discovery_hd"
+        },
+        {
+          "key": "discovery-science",
+          "name": "Discovery Science",
+          "logo": "discovery_science"
+        },
+        {
+          "key": "discovery-turbo",
+          "name": "Discovery Turbo",
+          "logo": "discovery_turbo"
+        },
+        {
+          "key": "national-geographic-channel",
+          "name": "National Geographic Channel",
+          "logo": "national_geographic_channel"
+        },
+        {
+          "key": "national-geographic-channel-hd",
+          "name": "National Geographic Channel HD",
+          "logo": "national_geographic_channel_hd"
+        },
+        {
+          "key": "tlc",
+          "name": "TLC",
+          "logo": "tlc"
+        }
+      ]},
+{
+      "category":"English News",
+      "data": [
+        {
+          "key": "cnbc-tv18",
+          "name": "CNBC TV 18",
+          "logo": "cnbc_tv18"
+        },
+        {
+          "key": "cnn-ibn",
+          "name": "CNBC IBN",
+          "logo": "cnn_ibn"
+        },
+        {
+          "key": "ndtv-24x7",
+          "name": "NDTV 24*7",
+          "logo": "ndtv_24x7"
+        },
+        {
+          "key": "ndtv-profit",
+          "name": "NDTV Profit",
+          "logo": "ndtv_profit"
+        },
+        {
+          "key": "times-now",
+          "name": "Times Now",
+          "logo": "times_now"
+        }
+      ]},
+{
+      "category":"English Entertainment",
+      "data": [
+        {
+          "key": "aaj-tak",
+          "name": "Aaj Tak",
+          "logo": "aaj_tak"
+        },
+        {
+          "key": "cnbc-awaaz",
+          "name": "CNBC Awaaz",
+          "logo": "cnbc_awaaz"
+        },
+        {
+          "key": "dd-news",
+          "name": "DD News",
+          "logo": "dd_news"
+        },
+        {
+          "key": "focus-tv",
+          "name": "Focus Tv",
+          "logo": "focus_tv"
+        },
+        {
+          "key": "ibn-7",
+          "name": "IBN 7",
+          "logo": "ibn_7"
+        },
+        {
+          "key": "india-news",
+          "name": "India News",
+          "logo": "india_news"
+        },
+        {
+          "key": "india-tv",
+          "name": "India Tv",
+          "logo": "india_tv"
+        },
+        {
+          "key": "ndtv-india",
+          "name": "NDTV India",
+          "logo": "ndtv_india"
+        },
+        {
+          "key": "news-24",
+          "name": "News 24",
+          "logo": "news24"
+        },
+        {
+          "key": "news-express",
+          "name": "News Express",
+          "logo": "newsx"
+        },
+        {
+          "key": "zee-business",
+          "name": "Zee Business",
+          "logo": "zee_business"
+        },
+        {
+          "key": "zee-news",
+          "name": "Zee News",
+          "logo": "zee_news"
+        },
+        {
+          "key": "zee-news-up",
+          "name": "Zee News Up",
+          "logo": "zee_news_up"
+        }
+      ]},
+{
+      "category":"Malayalam",
+      "data": [
+        {
+          "key": "amrita-tv",
+          "name": "Amrita Tv",
+          "logo": "amrita_tv"
+        },
+        {
+          "key": "asianet",
+          "name": "Asianet",
+          "logo": "asianet"
+        },
+        {
+          "key": "asianet-movies",
+          "name": "Asianet Movies",
+          "logo": "asianet_movies"
+        },
+        {
+          "key": "asianet-news",
+          "name": "Asianet News",
+          "logo": "asianet_news"
+        },
+        {
+          "key": "asianet-plus",
+          "name": "Asianet Plus",
+          "logo": "asianet_plus"
+        },
+        {
+          "key": "asianet-suvarna",
+          "name": "Asianet Suvarna",
+          "logo": "asianet_suvarna"
+        },
+        {
+          "key": "indiavision",
+          "name": "India Vision",
+          "logo": "indiavision"
+        },
+        {
+          "key": "kairali-people-tv",
+          "name": "Kairali People Tv",
+          "logo": "kairali_people_tv"
+        },
+        {
+          "key": "kairali-tv",
+          "name": "Kairali Tv",
+          "logo": "kairali_tv"
+        },
+        {
+          "key": "kairali-we-tv",
+          "name": "Kairali We Tv",
+          "logo": "we_tv"
+        },
+        {
+          "key": "mathrubhumi-news",
+          "name": "Mathrubhumi News",
+          "logo": "mathrubhumi_news"
+        },
+        {
+          "key": "raj-news-malyalam",
+          "name": "Raj News Malayalam",
+          "logo": "raj_news_malayalam"
+        },
+        {
+          "key": "surya-tv",
+          "name": "Surya Tv",
+          "logo": "surya_tv"
+        }
+      ]},
+{
+      "category":"Hindi/Punjabi",
+      "data": [
+        {
+          "key": "9x",
+          "name": "9X",
+          "logo": "ninex"
+        },
+        {
+          "key": "9x-tashan",
+          "name": "9X Tashan",
+          "logo": "nine_x_tashan"
+        },
+        {
+          "key": "mh1-news",
+          "name": "MG1 News",
+          "logo": "mh1_news"
+        },
+        {
+          "key": "ptc-chak-de",
+          "name": "PTC Chak De",
+          "logo": "ptc_chak_de"
+        },
+        {
+          "key": "ptc-news",
+          "name": "PTC News",
+          "logo": "ptc_news"
+        },
+        {
+          "key": "zee-punjab-haryana-himachal",
+          "name": "Zee Punjabi/ Haryana/ Himachal",
+          "logo": "zee_punjab_haryana_himachal"
+        }
+      ]},
+{
+      "category":"Marathi",
+      "data": [
+        {
+          "key": "9x-jhakaas",
+          "name": "9X Jhakass",
+          "logo": "nine_x_jhakaas"
+        },
+        {
+          "key": "etv-marathi",
+          "name": "Etv Marathi",
+          "logo": "etv_marathi"
+        },
+        {
+          "key": "ibn-lokmat",
+          "name": "IBN Lokmat",
+          "logo": "ibn_lokmat"
+        },
+        {
+          "key": "mi-marathi",
+          "name": "MI Marathi",
+          "logo": "mi_marathi"
+        },
+        {
+          "key": "star-pravah",
+          "name": "Star Pravah",
+          "logo": "star_pravah"
+        },
+        {
+          "key": "zee-24-taas",
+          "name": "Zee 24 Taas",
+          "logo": "zee_24_taas"
+        },
+        {
+          "key": "zee-marathi",
+          "name": "Zee Marathi",
+          "logo": "zee_marathi"
+        },
+        {
+          "key": "zee-talkies",
+          "name": "Zee Talkies",
+          "logo": "zee_talkies"
+        }
+      ]},
+{
+      "category":"Lifestyle/Fashion",
+      "data": [
+        {
+          "key": "bindass-play",
+          "name": "Bindass Play",
+          "logo": "bindass"
+        },
+        {
+          "key": "fox-life",
+          "name": "Fox Life",
+          "logo": "fox_life"
+        },
+        {
+          "key": "fox-life-hd",
+          "name": "Fox Life HD",
+          "logo": "fox_life_hd"
+        },
+        {
+          "key": "homeshop-18",
+          "name": "Homeshop 18",
+          "logo": "homeshop18"
+        },
+        {
+          "key": "ndtv-good-times",
+          "name": "NDTV Good Times",
+          "logo": "ndtv_good_times"
+        },
+        {
+          "key": "travel-xp",
+          "name": "Travle XP",
+          "logo": "travelxp"
+        },
+        {
+          "key": "zee-khana-khazana",
+          "name": "Zee Khana Khazana",
+          "logo": "zkhanna"
+        },
+        {
+          "key": "zoom",
+          "name": "Zoom",
+          "logo": "zoom"
+        }
+      ]},
+{
+      "category":"Bangla",
+      "data": [
+        {
+          "key": "akash-bangla",
+          "name": "Akash Bangla",
+          "logo": "akash_bangla_"
+        },
+        {
+          "key": "channel-10",
+          "name": "Channel 10",
+          "logo": "channel_10"
+        },
+        {
+          "key": "dhoom-music",
+          "name": "Dhoom Music",
+          "logo": "dhoom_music"
+        },
+        {
+          "key": "etv-bangla",
+          "name": "Etv Bangla",
+          "logo": "etv_bangla_"
+        },
+        {
+          "key": "kolkata-tv",
+          "name": "Kolkata Tv",
+          "logo": "kolkata_tv"
+        },
+        {
+          "key": "ruposhi-bangla",
+          "name": "Ruposhi Bangla",
+          "logo": "ruposhi_bangla"
+        },
+        {
+          "key": "sangeet-bangla",
+          "name": "Sangeet Bangla",
+          "logo": "sangeet_bangla"
+        },
+        {
+          "key": "star-jalsha",
+          "name": "Jalsha Movies",
+          "logo": "star_jalsha"
+        },
+        {
+          "key": "zee-bangla",
+          "name": "Zee Bangla",
+          "logo": "zee_bangla"
+        }
+      ]
+  }
+]
