@@ -2,7 +2,7 @@
   {
     "category":"Hindi Movies",
     
-      "data": [
+      "channels": [
         {
           "key": "abn-telugu-news",
           "name": "ABN Telgu News",
@@ -21,7 +21,7 @@
         {
           "key": "etv-2",
           "name": "Etv 2",
-          "logo": "etv_2"
+          "logo": "etv_2" 
         },
         {
           "key": "gemini-movies",
@@ -97,7 +97,7 @@
     },
     {
       "category":"Telugu",
-      "data": [
+      "channels": [
         {
           "key": "abn-telugu-news",
           "name": "ABN Telgu News",
@@ -193,7 +193,7 @@
       {
         
       "category":"Tamil",
-      "data":[
+      "channels":[
         {
           "key": "7-s-music",
           "name": "7s Music",
@@ -346,7 +346,7 @@
         }
       ]},
       {"category":"Music",
-      "data": [
+      "channels": [
         {
           "key": "9x-jalwa",
           "name": "9X Jalwa",
@@ -394,7 +394,7 @@
         }
       ]},
     {"category":"Hindi Entertainment",
-      "data": [
+      "channels": [
         {
           "key": "big-magic",
           "name": "Big Magic",
@@ -507,7 +507,7 @@
         }
       ]},
 {"category":"English Movies",
-      "data": [
+      "channels": [
         {
           "key": "hbo",
           "name": "HBO",
@@ -581,7 +581,7 @@
       ]},
 { 
   "category":"Kannada",
-      "data": [
+      "channels": [
         {
           "key": "etv-kannada",
           "name": "Etv Kannada",
@@ -646,7 +646,7 @@
 {
   "category":"Sports",
   
-      "data": [
+      "channels": [
         {
           "key": "dd-sports",
           "name": "DD Sports",
@@ -729,7 +729,7 @@
         }
       ]},
 {"category":"Infotainment",
-      "data": [
+      "channels": [
         {
           "key": "animal-planet",
           "name": "Animal Planet",
@@ -773,7 +773,7 @@
       ]},
 {
       "category":"English News",
-      "data": [
+      "channels": [
         {
           "key": "cnbc-tv18",
           "name": "CNBC TV 18",
@@ -802,7 +802,7 @@
       ]},
 {
       "category":"English Entertainment",
-      "data": [
+      "channels": [
         {
           "key": "aaj-tak",
           "name": "Aaj Tak",
@@ -871,7 +871,7 @@
       ]},
 {
       "category":"Malayalam",
-      "data": [
+      "channels": [
         {
           "key": "amrita-tv",
           "name": "Amrita Tv",
@@ -940,7 +940,7 @@
       ]},
 {
       "category":"Hindi/Punjabi",
-      "data": [
+      "channels": [
         {
           "key": "9x",
           "name": "9X",
@@ -974,7 +974,7 @@
       ]},
 {
       "category":"Marathi",
-      "data": [
+      "channels": [
         {
           "key": "9x-jhakaas",
           "name": "9X Jhakass",
@@ -1018,7 +1018,7 @@
       ]},
 {
       "category":"Lifestyle/Fashion",
-      "data": [
+      "channels": [
         {
           "key": "bindass-play",
           "name": "Bindass Play",
@@ -1062,7 +1062,7 @@
       ]},
 {
       "category":"Bangla",
-      "data": [
+      "channels": [
         {
           "key": "akash-bangla",
           "name": "Akash Bangla",

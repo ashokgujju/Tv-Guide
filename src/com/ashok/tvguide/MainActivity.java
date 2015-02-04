@@ -2,6 +2,8 @@ package com.ashok.tvguide;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -11,54 +13,61 @@ import com.android.volley.toolbox.JsonArrayRequest;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-       
-//      int i = R.drawable.etv;
-//      int j = Integer.parseInt("R.drawable.etv");
-     
-//     int j = getResources().getIdentifier("etv", "drawable", getPackageName());
-//     Toast.makeText(this, i+"asdf"+j, Toast.LENGTH_LONG).show();
-//     
-     try {
-		JSONArray jsonArray = new JSONArray(loadJSONFromAsset());
-		for (int i = 0; i < jsonArray.length(); i++) {
-			JSONObject object = jsonArray.getJSONObject(i);
-			String categoryName = object.getString("category");
-			JSONArray data = object.getJSONArray("data");
-			for (int j = 0; j < data.length(); j++) {
-				JSONObject show = data.getJSONObject(j);
-				String showName = show.getString("name");
-				Toast.makeText(getApplicationContext(), categoryName, Toast.LENGTH_LONG).show();
-				Toast.makeText(getApplicationContext(), showName, Toast.LENGTH_LONG).show();
-				break;
+	HashMap<String, ArrayList<Channel>> dataHashMap = new HashMap<>();
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+
+		try {
+			JSONArray jsonArray = new JSONArray(loadJSONFromAsset());
+			for (int i = 0; i < jsonArray.length(); i++) {
+				JSONObject object = jsonArray.getJSONObject(i);
+				String categoryName = object.getString("category");
+				JSONArray channelsArray = object.getJSONArray("channels");
+				
+				ArrayList<Channel> channels = new ArrayList<>();
+				for (int j = 0; j < channelsArray.length(); j++) {
+					JSONObject channelObject = channelsArray.getJSONObject(j);
+					
+					Channel channel = new Channel();
+					channel.setName(channelObject.getString("name"));
+					channel.setKey(channelObject.getString("key"));
+					channel.setLogo(channelObject.getString("logo"));
+					channels.add(channel);
+				}
+				dataHashMap.put(categoryName, channels);
 			}
-			break;
+		} catch (JSONException e) {
+			e.printStackTrace();
 		}
-	} catch (JSONException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+		
+		ListView list = (ListView) findViewById(R.id.list);
+		CustomListAdapter adapter = new CustomListAdapter(this, dataHashMap);
+		list.setAdapter(adapter);
+		
+		Toast.makeText(getApplicationContext(), dataHashMap.size()+"", Toast.LENGTH_LONG).show();
 	}
-    }
-    
-    public String loadJSONFromAsset() {
-    	String json = null;
-    	try {
-    		InputStream is = getAssets().open("data.json");
-    		int size = is.available();
-    		byte[] buffer = new byte [size];
-    		is.read(buffer);
-    		is.close();
-    		json = new String(buffer, "UTF-8");
-    	} catch (IOException ex) {
-    		ex.printStackTrace();
-    	}
+
+	public String loadJSONFromAsset() {
+		String json = null;
+		try {
+			InputStream is = getAssets().open("data.json");
+			int size = is.available();
+			byte[] buffer = new byte[size];
+			is.read(buffer);
+			is.close();
+			json = new String(buffer, "UTF-8");
+		} catch (IOException ex) {
+			ex.printStackTrace();
+		}
 		return json;
-    }
+	}
 }
