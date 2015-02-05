@@ -2,7 +2,9 @@ package com.ashok.tvguide;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 
 import org.json.JSONArray;
@@ -25,7 +27,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
+		
 		try {
 			JSONArray jsonArray = new JSONArray(loadJSONFromAsset());
 			for (int i = 0; i < jsonArray.length(); i++) {
@@ -50,10 +52,8 @@ public class MainActivity extends Activity {
 		}
 		
 		ListView list = (ListView) findViewById(R.id.list);
-		CustomListAdapter adapter = new CustomListAdapter(this, dataHashMap);
+		ListOfCategoriesAdapter adapter = new ListOfCategoriesAdapter(this, dataHashMap);
 		list.setAdapter(adapter);
-		
-		Toast.makeText(getApplicationContext(), dataHashMap.size()+"", Toast.LENGTH_LONG).show();
 	}
 
 	public String loadJSONFromAsset() {

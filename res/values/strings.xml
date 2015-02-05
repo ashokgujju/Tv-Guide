@@ -3,5 +3,7 @@
 
     <string name="app_name">TvGuide</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_shows_list">Shows</string>
+    <string name="title_activity_show">ShowActivity</string>
 
 </resources>
