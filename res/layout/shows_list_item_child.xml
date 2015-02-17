@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="A joyous trek to the four corners of God’s Own Country seeking her many and varied food delicacies, meet the people who still hold the ancient recipes and learn hands on how to prepared and cook them. Kerala is a land rich in culture and tradition. The preparation of traditional food dishes is in many cases a direct link to the cultural heritage of a land and its people. Kerala has her own language, her own styles of dance, her own artistic traditions and very impo" />
+
+</LinearLayout>

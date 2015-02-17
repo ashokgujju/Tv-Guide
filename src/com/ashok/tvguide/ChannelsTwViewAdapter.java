@@ -35,7 +35,6 @@ public class ChannelsTwViewAdapter extends BaseAdapter {
 
 	@Override
 	public long getItemId(int position) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
@@ -57,6 +56,8 @@ public class ChannelsTwViewAdapter extends BaseAdapter {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(context, ListOfShows.class);
+				i.putExtra("logo", channel.getLogo());
+				i.putExtra("name", channel.getName());
 				i.putExtra("key", channel.getKey());
 				context.startActivity(i);
 			}

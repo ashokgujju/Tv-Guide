@@ -7,6 +7,7 @@ import java.util.Iterator;
 import org.lucasr.twowayview.TwoWayView;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,6 +62,7 @@ public class ListOfCategoriesAdapter extends BaseAdapter {
 		TwoWayView mTwView = (TwoWayView) convertView.findViewById(R.id.twowayview);
 		ChannelsTwViewAdapter adapter = new ChannelsTwViewAdapter(context, dataHashMap.get(categories.get(position)));
 		mTwView.setAdapter(adapter);
+
 		return convertView;
 	}
 }
