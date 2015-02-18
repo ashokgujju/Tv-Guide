@@ -3,98 +3,88 @@
     "category":"Hindi Movies",
     
       "channels": [
-        {
-          "key": "abn-telugu-news",
-          "name": "ABN Telgu News",
-          "logo": "abn_telugu_news"
-        },
-        {
-          "key": "bhakti-tv",
-          "name": "Bhakti Tv",
-          "logo": "bhakti_tv"
-        },
-        {
-          "key": "etv",
-          "name": "Etv",
-          "logo": "etv"
-        },
-        {
-          "key": "etv-2",
-          "name": "Etv 2",
-          "logo": "etv_2" 
-        },
-        {
-          "key": "gemini-movies",
-          "name": "Gemini Movies",
-          "logo": "gemini_movies"
-        },
-        {
-          "key": "gemini-music",
-          "name": "Gemini Music",
-          "logo": "gemini_music"
-        },
-        {
-          "key": "gemini-tv",
-          "name": "Gemini Tv",
-          "logo": "gemini_tv"
-        },
-        {
-          "key": "gemini-tv-hd",
-          "name": "Gemini Tv HD",
-          "logo": "gemini_tv_hd"
-        },
-        {
-          "key": "kushi-tv",
-          "name": "Khushi Tv",
-          "logo": "kushi_tv"
-        },
-        {
-          "key": "maa-gold",
-          "name": "Maa Gold",
-          "logo": "maa_gold"
-        },
-        {
-          "key": "maa-movies",
-          "name": "Maa Movies",
-          "logo": "maamovies_"
-        },
-        {
-          "key": "maa-music",
-          "name": "Maa Music",
-          "logo": "maa_music"
-        },
-        {
-          "key": "maa-tv",
-          "name": "Maa Tv",
-          "logo": "maa_tv"
-        },
-        {
-          "key": "raj-musix-telugu",
-          "name": "Raj Musix Telugu",
-          "logo": "raj_musix"
-        },
-        {
-          "key": "raj-news-24x7",
-          "name": "Raj News 24*7",
-          "logo": "raj_news_24x7"
-        },
-        {
-          "key": "studio-n",
-          "name": "Studio N",
-          "logo": "studio_n"
-        },
-        {
-          "key": "v6-news",
-          "name": "V6 News",
-          "logo": "v6_news"
-        },
-        {
-          "key": "zee-telugu",
-          "name": "Zee Telugu",
-          "logo": "zee_telugu"
-        }
-      ]
-    },
+      {
+        "key":"b4u-movies",
+        "name":"B4U Movies",
+        "logo":"b4u_music"
+      },
+      {
+        "key":"cinema-tv",
+        "name":"Cinema TV",
+        "logo":"cinema_tv"
+      },
+      {
+        "key":"filmy",
+        "name":"Filmy",
+        "logo":"filmy"
+      },
+      {
+        "key":"india-talkies",
+        "name":"India Talkies",
+        "logo":"india_talkies_"
+      },
+      {
+        "key":"khushboo-tv",
+        "name":"Khushboo Tv",
+        "logo":"khushboo_tv"
+      },
+      {
+        "key":"movies-ok",
+        "name":"Movies Ok",
+        "logo":"movies_ok"
+      },
+      {
+        "key":"sony-max",
+        "name":"Sony Max",
+        "logo":"sonymax"
+      },
+      {
+        "key":"sony-max-2",
+        "name":"Sony Max 2",
+        "logo":"sonymax"
+      },
+      {
+        "key":"star-gold",
+        "name":"Star Gold",
+        "logo":"stargold"
+      },
+      {
+        "key":"star-gold-hd",
+        "name":"Star Gold HD",
+        "logo":"stargoldhd"
+      },
+      {
+        "key":"utv-action",
+        "name":"UTV Action",
+        "logo":"utv_action"
+      },
+      {
+        "key":"utv-movies",
+        "name":"UTV Movies",
+        "logo":"utv_movies"
+      },
+      {
+        "key":"zee-cinema",
+        "name":"Zee Cinema",
+        "logo":"zee_cinema"
+      },
+      {
+        "key":"zee-classic",
+        "name":"Zee Classic",
+        "logo":"zee_classic"
+      },
+      {
+        "key":"zee-premier",
+        "name":"Zee Premier",
+        "logo":"zee_premier"
+      },
+      {
+        "key":"zee-action",
+        "name":"Zee Action",
+        "logo":"zee_action"
+      }
+    ]},
+
     {
       "category":"Telugu",
       "channels": [

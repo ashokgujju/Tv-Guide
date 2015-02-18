@@ -44,7 +44,7 @@ public class ChannelsTwViewAdapter extends BaseAdapter {
 			inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		}
 		if(convertView == null) {
-			convertView = inflater.inflate(R.layout.twview_item, null);
+			convertView = inflater.inflate(R.layout.channel_list_item, null);
 		}
 		
 		final Channel channel = channels.get(position);
@@ -55,7 +55,7 @@ public class ChannelsTwViewAdapter extends BaseAdapter {
 			
 			@Override
 			public void onClick(View v) {
-				Intent i = new Intent(context, ListOfShows.class);
+				Intent i = new Intent(context, ShowsList.class);
 				i.putExtra("logo", channel.getLogo());
 				i.putExtra("name", channel.getName());
 				i.putExtra("key", channel.getKey());
