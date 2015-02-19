@@ -58,6 +58,7 @@ public class ShowsList extends Activity {
 
 					@Override
 					public void onErrorResponse(VolleyError arg0) {
+						closeLoader();
 						Toast.makeText(getApplicationContext(), arg0.getMessage(), Toast.LENGTH_LONG).show();
 					}
 				});
@@ -86,7 +87,6 @@ public class ShowsList extends Activity {
 			displayShows();
 		} catch (JSONException e) {
 			e.printStackTrace();
-			closeLoader();
 		}
 	}
 
