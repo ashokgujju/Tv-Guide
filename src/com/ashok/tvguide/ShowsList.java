@@ -9,8 +9,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.ProgressDialog;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
@@ -19,11 +20,11 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.ashok.tvguide.utility.MySingleton;
+import com.ashok.tvguide.utils.Loader;
+import com.ashok.tvguide.utils.MySingleton;
 
 public class ShowsList extends Activity {
 
-	private ProgressDialog progressDialog;
 	private ExpandableListView list;
 	private ArrayList<Show> shows = new ArrayList<>();
 	
@@ -33,16 +34,13 @@ public class ShowsList extends Activity {
 		setContentView(R.layout.activity_shows_list);
 		
 		list = (ExpandableListView) findViewById(R.id.listOfShows);
-		progressDialog = new ProgressDialog(ShowsList.this, AlertDialog.THEME_HOLO_DARK);
 		
-		getActionBar().setTitle(getIntent().getExtras().getString("name"));
-		getActionBar().setIcon(getResources().getIdentifier(getIntent().getExtras().getString("logo"), "drawable", getPackageName()));
-		
+		getActionBar().setTitle(getIntent().getExtras().getString("name"));	
 		fetchShows(getIntent().getExtras().getString("key"));
 	}
 
 	private void fetchShows(String channel) {		
-		showLoader("Fetching data..");
+		Loader.show(this, "Fetching shows..");
 
 		String url = "http://indian-television-guide.appspot.com/indian_television_guide?channel="
 				+ channel + "&" + "date=" +  new SimpleDateFormat("ddMMyyyy").format(new Date());
@@ -53,12 +51,13 @@ public class ShowsList extends Activity {
 					@Override
 					public void onResponse(String res) {
 						parseResponse(res);
+						displayShows();
 					}
 				}, new Response.ErrorListener() {
 
 					@Override
 					public void onErrorResponse(VolleyError arg0) {
-						closeLoader();
+						Loader.close();
 						Toast.makeText(getApplicationContext(), arg0.getMessage(), Toast.LENGTH_LONG).show();
 					}
 				});
@@ -84,30 +83,14 @@ public class ShowsList extends Activity {
 				
 				shows.add(show);
 			}
-			displayShows();
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
 	}
 
 	private void displayShows() {
-		closeLoader();
 		ShowsListAdapter adapter = new ShowsListAdapter(this, shows);
 		list.setAdapter(adapter);
-	}
-	
-	private void showLoader(String message) {
-		if (progressDialog.isShowing())
-			progressDialog.cancel();
-
-		progressDialog.setTitle("Please wait..");
-		progressDialog.setCancelable(false);
-		progressDialog.setMessage("" + message);
-		progressDialog.show();
-	}
-
-	private void closeLoader() {
-		if (progressDialog.isShowing())
-			progressDialog.cancel();
+		Loader.close();
 	}
 }

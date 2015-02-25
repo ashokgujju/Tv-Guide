@@ -2,15 +2,15 @@ package com.ashok.tvguide;
 
 import java.util.ArrayList;
 
-import com.android.volley.toolbox.NetworkImageView;
-import com.ashok.tvguide.utility.MySingleton;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
+
+import com.android.volley.toolbox.NetworkImageView;
+import com.ashok.tvguide.utils.MySingleton;
 
 public class ShowsListAdapter extends BaseExpandableListAdapter {
 
@@ -68,7 +68,7 @@ public class ShowsListAdapter extends BaseExpandableListAdapter {
 		TextView mTime = (TextView) convertView.findViewById(R.id.time);
 		TextView mType = (TextView) convertView.findViewById(R.id.type);
 		NetworkImageView mThumb = (NetworkImageView) convertView.findViewById(R.id.thumb);
-		mThumb.setDefaultImageResId(R.drawable.ic_launcher);
+		mThumb.setDefaultImageResId(R.drawable.show);
 		mThumb.setImageUrl(shows.get(groupPosition).getThumb(), MySingleton.getInstance(context).getImageLoader());
 		
 		mTitle.setText(shows.get(groupPosition).getTitle());

@@ -4,12 +4,15 @@ import java.util.ArrayList;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
+
+import com.android.volley.toolbox.NetworkImageView;
+import com.ashok.tvguide.utils.MySingleton;
 
 public class ChannelsTwViewAdapter extends BaseAdapter {
 	
@@ -49,14 +52,15 @@ public class ChannelsTwViewAdapter extends BaseAdapter {
 		
 		final Channel channel = channels.get(position);
 		
-		ImageView mLogo = (ImageView) convertView.findViewById(R.id.logo);
-		mLogo.setImageResource(context.getResources().getIdentifier(channel.getLogo(), "drawable", context.getPackageName()));
+		final NetworkImageView mLogo = (NetworkImageView) convertView.findViewById(R.id.logo);
+		mLogo.setDefaultImageResId(R.drawable.ic_launcher);
+		mLogo.setImageUrl(channel.getLogo(), MySingleton.getInstance(context).getImageLoader());
+		
 		mLogo.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				Intent i = new Intent(context, ShowsList.class);
-				i.putExtra("logo", channel.getLogo());
+				Intent i = new Intent(context, ShowsList.class);;
 				i.putExtra("name", channel.getName());
 				i.putExtra("key", channel.getKey());
 				context.startActivity(i);
